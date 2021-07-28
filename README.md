@@ -1,14 +1,16 @@
-<div align="center">
-  <img width="200" height="200" src="https://webpack.js.org/assets/icon-square-big.svg">
-  <h1>Webpack Template</h1>
-  <p>
-    Webpack is a module bundler. Its main purpose is to bundle JavaScript files for usage in a browser, yet it is also capable of transforming, bundling, or packaging just about any resource or asset.
-  </p>
-  <p>Author: <a href="https://tocode.ru" target="_blank">To code</a> | <a href="https://www.youtube.com/playlist?list=PLkCrmfIT6LBQWN02hNj6r1daz7965GxsV" target="_blank">Youtube guide in Russian</a></p>
-</div>
+<a align="center">
+  <img width="200" height="100" src="https://webpack.js.org/assets/icon-square-big.svg">
+</a>
+
+ # Шаблон Webpack + Vue
+
+   - Шаблон Webpack с подключенным Vue.js для разработки приложений.
+
+ - На основе:<a href="https://tocode.ru" target="_blank">To code</a>
 
 
-## Build Setup:
+
+## Установка:
 
 ``` bash
 # Download repository:
@@ -27,7 +29,7 @@ npm run dev
 npm run build
 ```
 
-## Project Structure:
+## Структура проекта:
 
 * `src/index.html` - main app HTML
 * `src/assets/scss` - put custom app SCSS styles here. Don't forget to import them in `index.js`
@@ -43,7 +45,7 @@ npm run build
   <h2>Settings:</h2>
 </div>
 
-## Main const:
+## Глобальная константа:
 Easy way to move all files.
 Default:
 ``` js
@@ -69,7 +71,7 @@ const PATHS = {
 }
 ```
 
-## Import Another libs:
+## Импорт библиотек:
 1. Install libs
 2. Import libs in `./index.js`
 ``` js
@@ -137,7 +139,7 @@ Example:
 ```
 
 ## Create Another HTML Files:
-#### Default: 
+#### Default:
 Automatic creation any html pages:
 1. Create another html file in `./src` (main folder)
 2. Open new page `http://localhost:8081/about.html` (Don't forget to RERUN dev server)
@@ -287,7 +289,7 @@ If ypu need svg or more formaths use another mixin in `src/assets/scss/utils/mix
 
 **Usage:**
 1. Put your font to `src/assets/fonts/FOLDERNAME/FONTNAME`.
-FOLLOW: Files Required: 
+FOLLOW: Files Required:
 Example: `.woff, .woffs` formats;
 2. Go to `fonts.scss`;
 3. Use mixin
