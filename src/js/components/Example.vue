@@ -11,10 +11,12 @@
 // Жду на курсе по вью: https://tocode.ru/curses/vuejs-s-nylya-do-pro
 // Скидка по промокоду: "WEBPACK" ;)
 export default {
-  data() {
-    return {
-      message: 'Компонент vue 333'
-    }
+  data: () => ({
+      message: 'null'
+
+  }),
+  created() {
+    this.message = this.$store.getters.getMessage
   }
 }
 </script>

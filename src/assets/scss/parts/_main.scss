@@ -1,0 +1,23 @@
+.main_lk {
+  position: relative;
+  grid-area: main;
+
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  flex-grow: 1;
+
+  width: 100%;
+
+  padding: 0;
+  box-sizing: border-box;
+
+  margin: 0 auto;
+
+
+  @media screen and (min-width: 768px) {
+    grid-column-start: 2;
+    grid-column-end: 3;
+    height: calc(100vh - 4.8rem);
+  }
+}
