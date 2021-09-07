@@ -1,0 +1,55 @@
+.ex {
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items: center;
+
+  width: 100%;
+
+  background-color: $lightgray;
+}
+
+.ex__block {
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items: center;
+
+  width: 100%;
+}
+
+.ex__wrapper {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+
+  width: 50rem;
+
+  padding: 2rem;
+  box-sizing: border-box;
+}
+
+.ex__list {
+  @include flex;
+}
+
+.ex__item {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
+  width: 40%;
+}
+
+.ex__img {
+  width: 7rem;
+}
+
+
+.ex__txt {
+  width: 100%;
+
+  text-align: center;
+  font-size: $Fs-l;
+}

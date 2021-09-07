@@ -1,18 +1,31 @@
 <template>
-  <section>
-    <div class="container">
-      <img src="/assets/img/logo.png" :alt="message" />
-      <p>{{ message }}</p>
+  <section class="ex__block">
+    <div class="ex__wrapper">
+      <ul class="ex__list">
+        <li class="ex__item">
+          <img class="ex__img" src="/assets/img/vue-logo.svg" :alt="altImg">
+        </li>
+        <li class="ex__item">
+          <img class="ex__img" src="/assets/img/logo.png" :alt="altImg">
+        </li>
+      </ul>
+
+      <p class="ex__txt">{{ message }}</p>
     </div>
   </section>
 </template>
 
+
+
 <script>
-// Жду на курсе по вью: https://tocode.ru/curses/vuejs-s-nylya-do-pro
-// Скидка по промокоду: "WEBPACK" ;)
+
 export default {
+comments: {
+
+},
   data: () => ({
-      message: 'null'
+    message: 'null',
+    altImg: 'image'
 
   }),
   created() {

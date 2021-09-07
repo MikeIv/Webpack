@@ -1,6 +1,6 @@
 export default {
   state: {
-    message: 'Подключение из Store'
+    message: 'Подключение из Store проверка'
   },
   mutations: {
 

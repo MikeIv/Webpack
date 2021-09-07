@@ -5,16 +5,17 @@
 @import 'global/global';
 @import 'global/mixins';
 @import 'global/fonts';
-//
-//// Parts
-//@import "parts/page";
-//@import "parts/header";
-//@import "parts/main";
-//@import "parts/footer";
-//
+
+// Parts
+@import "parts/page";
+@import "parts/header";
+@import "parts/main";
+@import "parts/footer";
+
+
 //@import "parts/vue";
-//
-//
-//// Project
-//@import "project/app";
-//@import "project/dev";
+
+// Project
+@import "project/ex";
+@import "project/dev";
+@import "project/pug";

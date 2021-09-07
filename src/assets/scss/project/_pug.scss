@@ -1,0 +1,43 @@
+.pug {
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items: center;
+
+  width: 100%;
+
+  background: rgba($base, 0.2);
+}
+
+.pug__block {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+
+  width: 100%;
+  min-height: 10rem;
+
+  padding: 4rem;
+}
+
+.pug__txt {
+  width: 100%;
+
+  margin-bottom: 2rem;
+
+  text-align: center;
+  font-size: $Fs-xl;
+  color: $base;
+}
+
+.pug__link {
+  width: 100%;
+
+  font-size: $Fs-m;
+  font-weight: 300;
+  color: $darkvue;
+  text-decoration: none;
+
+  cursor: pointer;
+}

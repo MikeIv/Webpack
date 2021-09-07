@@ -9,10 +9,12 @@ import './assets/scss/styles.scss'
 
 // Vue.js
 window.Vue = require('vue')
+// import Vue from 'vue' – еще один вариант подключения
 import store from './store'
 
 // Vue components (for use in html)
-Vue.component('example-component', require('./js/components/Example.vue').default)
+Vue.component('example', require('./js/components/Example.vue').default)
+Vue.component('pugtest', require('./js/components/Pugtest.vue').default)
 
 // Vue init
 const app = new Vue({
@@ -20,5 +22,9 @@ const app = new Vue({
     component: false
   }),
   store,
-  el: '#app'
+  el: '#app',
+  components: {
+
+  }
+
 })
