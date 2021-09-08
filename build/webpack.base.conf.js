@@ -17,7 +17,8 @@ const PATHS = {
 
 // Pages const for HtmlWebpackPlugin
 
-const PAGES_DIR = PATHS.src
+// const PAGES_DIR = PATHS.src
+const PAGES_DIR = `${PATHS.src}/html`
 const PAGES = fs
   .readdirSync(PAGES_DIR)
   .filter(fileName => fileName.endsWith('.html'))
